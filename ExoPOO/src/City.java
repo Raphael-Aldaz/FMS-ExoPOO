@@ -10,10 +10,12 @@ public class City {
 		setCountry(country);
 		setNumberOfResident(numberOfResident);
 	}
-	public City(String name, String county) {
+	public City(String name, int numberOfResident) {
 		setName(name);
-		setCountry(country);
+		setCountry("unknow");
+		setNumberOfResident(numberOfResident);
 	}
+
 	
 	public String getName() {
 		return name;
@@ -47,9 +49,9 @@ public class City {
 	}
 	
 	public  void display() {
-		System.out.println("Name : " + name +"\n"
-							+"Country : " + country + "\n"
-							+"Number of residents : " + numberOfResident);
-	}
+		System.out.println("[ville : " + name +"] "+"[pays : " + country + "] "+"[nombre d'habitans : " + numberOfResident +" ]");
+		}
+							
+	
 	
 }
