@@ -44,6 +44,21 @@ public class TestCity {
 		System.out.println(toulouse);
 		//Ici on obtient le nom de la classe suivie d'une chaine hexadecimal en sortie car nous n'avons pas utilisé la methode descendant de la classe Objet. Cette methode est la methode toString()
 		*/
+		
+		/* 1-6
+		City toulouse = new City("Toulouse", "France", 450000);
+		System.out.println(toulouse);
+		*/
+		/*1-7
+		City city1 = new City("Toulouse", "France", 450000);
+		City city2 = new City("Pau", "France", 100000);
+		City city3 = new City("Bayonne", "France", 50000);
+		City city4 = new City("Bordeaux", "France", 250000);
+		City city5 = new City("Rabat", "Maroc", 577000);
+		
+		
+		System.out.println(City.getNumber());
+		*/
 	}
 
 }
