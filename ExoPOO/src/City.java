@@ -1,14 +1,18 @@
 
 public class City {
 
-	public String name;
-	public String country;
-	public int numberOfResident;
+	private String name;
+	private String country;
+	private int numberOfResident;
 	
 	public City (String name, String country, int numberOfResident) {
 		setName( name);
 		setCountry(country);
 		setNumberOfResident(numberOfResident);
+	}
+	public City(String name, String county) {
+		setName(name);
+		setCountry(country);
 	}
 	
 	public String getName() {

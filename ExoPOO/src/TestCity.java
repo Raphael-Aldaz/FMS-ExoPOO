@@ -18,9 +18,11 @@ public class TestCity {
 		city4.display();*/
 		
 		
+		
 		System.out.println(city1.getName() + " : " + city1.getCountry() + " : " + city1.getNumberOfResident() );
 		
 		city1.setNumberOfResident( city1.getNumberOfResident() + 200);
+	
 		
 		System.out.println(city1.getName() + " : " + city1.getCountry() + " : " + city1.getNumberOfResident() );
 		
