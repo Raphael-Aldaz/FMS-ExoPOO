@@ -48,9 +48,13 @@ public class City {
 		
 	}
 	
-	public  void display() {
+	/*public  void display() {
 		System.out.println("[ville : " + name +"] "+"[pays : " + country + "] "+"[nombre d'habitans : " + numberOfResident +" ]");
-		}
+		}*/
+	
+	public void display() {
+		System.out.println("ville de " + name + " en "+ country + " ayant " + numberOfResident);
+	}
 							
 	
 	
