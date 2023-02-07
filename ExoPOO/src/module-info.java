@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author AldazR
- *
- */
-module ExoPOO {
-}
