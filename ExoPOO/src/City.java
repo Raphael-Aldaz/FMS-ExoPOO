@@ -3,7 +3,7 @@ public class City {
 
 	private String name;
 	private String country;
-	private int numberOfResident;
+	private int numberOfResident = 0;
 	private static int nbr;
 	
 	public City (String name, String country, int numberOfResident) {
@@ -16,6 +16,11 @@ public class City {
 		setName(name);
 		setCountry("unknow");
 		setNumberOfResident(numberOfResident);
+	}
+	public City(String name, String country) {
+		setName(name);
+		setCountry(country);
+	
 	}
 	
 	
@@ -54,17 +59,21 @@ public class City {
 		
 	}
 	
-	/*public  void display() {
-		System.out.println("[ville : " + name +"] "+"[pays : " + country + "] "+"[nombre d'habitans : " + numberOfResident +" ]");
+	/*public  String display1() {
+		return"[name : " + name +", "+"state : " + country + ", "+"nbInHabitants : " + numberOfResident +" ]";
 		}*/
 	
 	public void display() {
 		System.out.println("ville de " + name + " en "+ country + " ayant " + numberOfResident);
 	}
-	
+	/*
 	@Override
 	public String toString() {
-		return "ville de " + name + " en "+ country + " ayant " + numberOfResident;
+		return "ville de " + name + " en "+ country + " ayant " + numberOfResident  ;
+	}*/
+	@Override
+	public String toString() {
+		return"name = " + name +", "+"state = " + country + ", "+"nbInHabitants = " + numberOfResident ;
 	}
 							
 	
