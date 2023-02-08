@@ -1,7 +1,7 @@
 package fr.fms.entities;
 
-public class Capitale extends City {
-	private String monument;
+public class Capitale extends City  {
+	private String monument = null;
 	
 	
 	public Capitale(String name, String country, int numberOfResident, String monument) {
@@ -23,7 +23,12 @@ public class Capitale extends City {
 	
 	@Override
 	public String toString() {
-		return super.toString() +" monument : " + monument;
+		if (monument.equals(null) ) {
+			return super.toString();
+		}else {
+			return super.toString()+" monument : " + monument;
+		}
+		 
 	}
 	
 }
